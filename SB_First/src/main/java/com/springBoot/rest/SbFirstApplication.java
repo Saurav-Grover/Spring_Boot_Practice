@@ -14,7 +14,7 @@ public class SbFirstApplication {
 		SpringApplication.run(SbFirstApplication.class, args);
 	}
 	
-	@RequestMapping(value="/")
+	@RequestMapping("/")
 	public String hello() {
 		return "Hello Spring Boot World.";
 	}
